@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finest Kombucha</title>
+  <!--Insta-->
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+  </svg>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+      </style>      
+  <!--FAVICON-->
+  <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/logo.ico"/>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Scripts-->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <!--Barra de Navegação-->
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="img/logo-removebg-preview.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+              <a class="nav-item nav-link" id="about-menu" href="#">Sobre Nós</a>
+              <a class="nav-item nav-link" id="kbc-menu" href="#">Kombucha</a>
+              <a class="nav-item nav-link" id="produtos-menu" href="#">Produtos</a>
+              <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!--CARROSSEL-->
+      <div class="container-fluid">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+            <li data-target="#mainSlider" data-slide-to="3"></li>
+            <li data-target="#mainSlider" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/WhatsApp Image 2021-07-08 at 1.12.01 PM.jpeg" class="d-block w-100" alt="sobre">
+              <div class="carousel-caption d-md-block">
+                <h2>Quer saber quem somos?</h5>
+                <p></p>
+                <a href="#about-area" class="main-btn">Sobre Nós</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/WhatsApp Image 2021-07-08 at 1.11.59 PM.jpeg" class="d-block w-100" alt="Engenharia de software">
+              <div class="carousel-caption d-md-block">
+                <h2>Quer saber mais sobre a Kombucha?</h5>
+                <p>Nós fizemos um texto informativo para vocês.</p>
+                <a href="#apply-area" class="main-btn">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/WhatsApp Image 2021-07-08 at 1.12.00 PM.jpeg" class="d-block w-100" alt="Manutenção em software">
+              <div class="carousel-caption d-md-block">
+                <h2>Veja os nossos produtos!</h5>
+                <p></p>
+                <a href="#produtos-area" class="main-btn">Produtos</a>
+              </div>
+            </div>
+          <div class="carousel-item">
+            <img src="img/WhatsApp Image 2021-07-03 at 2.02.23 PM.jpeg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-md-block">
+              <h2>Pontos de venda!</h5>
+              <p>Compre agora mesmo!</p>
+              <a href="#data-area" class="main-btn">Ir</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/WhatsApp Image 2021-07-03 at 1.58.35 PM.jpeg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-md-block">
+              <h2>Quer adquirir nossos produtos?</h5>
+              <p>Entre em contato agora mesmo!</p>
+              <a href="#contact-area" class="main-btn">Entre em contato</a>
+            </div>
+          </div>
+        </div>
+          <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+              <!-- Sobre a empresa -->
+              <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12"> 
+                        <h3 class="main-title">Sobre a Finest Kombucha</h3>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img-fluid" src="img/WhatsApp Image 2021-07-03 at 2.02.24 PM.jpeg" alt="">
+                      </div>
+                      <div class="col-md-6">
+                        <h3 class="about-title">Uma empresa que pensa na sua saúde</h3>
+                        <p>As pessoas procuram por produtos saudáveis e os mais naturais possíveis, e nós da FINEST KOMBUCHA podemos proporcionar isso a você!</p>
+                        <p>"Os ingredientes certos, a receita ideal, somados ao carinho e dedicação"<br>Mestre Kombucheiro Rodrigo</p>
+                        <p>Confira nossos sabores:</p>
+                        <ul id="about-list">
+                          <li><i class="fas fa-check"></i> Hibisco </li>
+                          <li><i class="fas fa-check"></i> Laranja com Manjericão</li>
+                          <li><i class="fas fa-check"></i> Limão Siciliano</li>
+                          <li><i class="fas fa-check"></i> Uva Branca com Spirulina</li>
+                          <li><i class="fas fa-check"></i> Limão, Gengibre e Pimenta</li>
+                          <li><i class="fas fa-check"></i> Capim, Limão e Anis Estrelado</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+       <!-- KOMBUCHA -->
+       <div id="apply-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 apply-box" id="company-img"></div>
+            <div class="col-md-6 apply-box" id="pattern-img">
+              <h3>O que é a Kombucha?</h3>
+              <p>Kombucha é uma bebida a base de chá verde fermentado por um scoby (Cultura Simbiótica de bactérias e Leveduras), acrescentamos o sabor e colocamos para gaseificar, resultando em uma bebida cheia de benefícios.</p>
+              <p>Clique no botão abaixo e confira todos os benefícios!</p>
+              <a href="https://www.tuasaude.com/beneficios-do-kombucha/" target="_blank" class="main-btn" id="apply-btn">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfólio -->
+      <div id="produtos-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Conheça nossos produtos</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="dev-btn">Kombucha</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/hibisco.png" class="img-fluid" alt="hibisco">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/limão.png" class="img-fluid" alt="limao">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/uvabranca.png" class="img-fluid" alt="uva">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/laranjamanjericao.png" class="img-fluid" alt="laranjamanjericao">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/pimenta.png" class="img-fluid" alt="pimenta">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/uvabranca.png" class="img-fluid" alt="enche">
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Dados da empresa -->
+            <div id="data-area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleA"></div>
+                    <p>Hibisco</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleB"></div>
+                    <p>Limão Siciliano</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleC"></div>
+                    <p>Laranja com Manjericão</p>
+                  </div>  
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleD"></div>
+                    <p>Uva Branca com Spirulina</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleE"></div>
+                    <p>Pimenta com Gengibre</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleF"></div>
+                    <p>Capim, Limão e Anis Estrelado</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleG"></div>
+                    <p>Total</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Entre em contato -->
+      <!--<div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>Deseja ter nossos produtos em sua loja?</p>
+              <a target="_blank" href="https://lnky.in/finestkombucha"><button class="main-btn" id="call-btn">Entre em contato</button></a>
+            </div>
+          </div>
+      </div>
+    </div>-->
+  </main>
+  <!-- Rodapé -->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em contato conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fab fa-whatsapp"></i>
+              <p><span class="contact-tile">Envie uma mensagem para:</span> (45)99991-6893</p>
+              <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Envie um email:</span> finest.kombucha@gmail.com</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fab fa-instagram"></i>
+              <p><span class="contact-tile">Siga nós:</span><a href="https://www.instagram.com/finestkombucha/" target="_blank"> @finestkombucha</a></p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Ou nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="text" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" class="main-btn">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://www.linkedin.com/in/lincon-nascimento-916b72216/" target="_blank">Lincon</a> &copy; 2021</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
